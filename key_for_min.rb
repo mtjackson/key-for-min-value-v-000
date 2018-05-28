@@ -9,7 +9,10 @@ def key_for_min_value(name_hash)
     value_list << value
     key_list << key
   end
-  
+
+  i = 0
+  value_list.each do |value|
+
   key_list[0]
 
 end
