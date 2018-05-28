@@ -7,15 +7,9 @@ def key_for_min_value(name_hash)
   value_list = []
   name_hash.collect do |key, value|
     value_list << value
-    if smallest > value
-      key_list.shift[key]
-      smallest = value
-    else smallest <= value
-      smallest = value
-      key_list.unshift[key]
-
-    end
+    key_list << key
   end
+  
   key_list[0]
 
 end
