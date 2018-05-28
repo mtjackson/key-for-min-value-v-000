@@ -4,11 +4,12 @@
 def key_for_min_value(name_hash)
   first = name_hash.keys[0]
   smallest = ""
+  key_list = []
   name_hash.each do |key, value|
     if key == first
       smallest = value
     elsif key != first
       if smallest > value
         smallest = value
-        
+
 end
