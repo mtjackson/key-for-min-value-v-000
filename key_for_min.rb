@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
       smallest = value
     else smallest <= value
       smallest = value
-      key_list.shift[key]
+      key_list.unshift[key]
     else smallest <= value
       key_list.unshift[key]
     end
