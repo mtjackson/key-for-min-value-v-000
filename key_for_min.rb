@@ -12,5 +12,6 @@ def key_for_min_value(name_hash)
     elsif key != first
       if smallest > value
         smallest = value
+        key_list.shift[key]
 
 end
