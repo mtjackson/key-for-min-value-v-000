@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
   key_list = []
   name_hash.each do |key, value|
     if smallest <= value
+      key_list.unshift[key]
     if smallest > value
       smallest = value
       key_list.shift[key]
