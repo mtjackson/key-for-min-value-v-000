@@ -12,7 +12,8 @@ def key_for_min_value(name_hash)
   i = 0
   smallest = value_list[0]
   value_list.each do |value|
-    if value == smalest
+    if value == smallest
+      i +=1
   end
 
   key_list[0]
