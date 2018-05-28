@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
   end
 
   i = 0
-  smallest = ""
+  smallest = value_list[0]
   value_list.each do |value|
 
   end
